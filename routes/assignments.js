@@ -3,6 +3,7 @@ const assignmentsController = require("../controllers/assignmentsController");
 
 const router = express.Router();
 
+//------------------------------------------[GET all assignments - READ]
 router.get("/", assignmentsController.fetchAllAssignments);
 //------------------------------------------[GET specific assignment by ID - READ]
 router.get("/:id", assignmentsController.fetchAssignment);
