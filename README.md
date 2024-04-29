@@ -1,0 +1,2 @@
+Created a small Node,Express and MongoDb server application. I created a CRUD API using Express and MongoDb. Keeping separation of concerns in mind I separated my routes into one folder, my controllers into on folder and my models in another folder.
+I have tested all routes using postman to ensure everything worksas it should. I added 12 documents for each sample data I created on my database collection. I used the example of students,assignments and grades. I wanted to add different types of data to each sample. I used a collection of Strings and Arrays.
